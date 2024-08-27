@@ -1,0 +1,86 @@
+body {
+    background-color: #00B4D8;
+}
+ 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navbar navbar navbar navbar"
+    "heading_1 heading_1 heading_1 heading_1"
+    "img_1 img_2 img_3 img_4"
+    "text_1 text_1 text_1 text_1"
+    "text_2 text_2 vid_1 vid_1"
+    "img_5 img_6 img_7 img_8"
+    "text_3 text_3 vid_2 vid_2"
+    "footer footer footer footer";
+    
+}
+ 
+.heading_1 {
+    grid-area: heading_1;
+    background: #CAF0F8;
+   text-align: center;
+   font-size: 100px;
+ 
+}
+ 
+.navbar {
+    grid-area: navbar;
+   background-color: #90E0EF;
+ 
+}
+ 
+.navbar ul {
+    list-style-type: none;
+}
+ 
+.navbar li {
+    padding: 20px;
+    background: #00B4D8;
+    display: inline;
+}
+ 
+ 
+.video_1 {
+    grid-area: video_1;
+    background-color: #90E0EF;
+    padding: 25px;
+ 
+}
+ 
+.video_2 {
+    grid-area: video_2;
+    background-color: #CAF0F8;
+ 
+}
+ 
+.text_1 {
+    grid-area: text_1;
+    background-color: #CAF0F8;
+    padding: 30px;
+ 
+}
+ 
+.image_1 {
+    grid-area: image_1;
+    background-color: #00B4D8;
+    
+}
+ 
+.paragraph_2 {
+    grid-area: paragraph_2;
+    background-color: #00B4D8;
+ 
+}
+ 
+.reference {
+    grid-area: reference;
+    text-align: center;
+ 
+}
+ 
+img{
+    width: 70%;
+}

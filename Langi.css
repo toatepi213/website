@@ -1,0 +1,154 @@
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-areas: 
+        "navigationbar"
+        "heading1"
+        "text1"
+        "pic1"
+        "pic2"
+        "pic3"
+        "pic4"
+        "pic5"
+        "pic6"
+        "pic7"
+        "pic8"
+        "text2"
+        "footer";
+    grid-gap: 1rem;
+    padding: 20px;
+}
+
+.navigationbar {
+    grid-area: navigationbar;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.navigationbar ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navigationbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navigationbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.navigationbar a:hover {
+    background-color: #45a049;
+}
+
+.heading1 {
+    grid-area: heading1;
+    background-image: url(images/kakatisi.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 50px;
+    font-family: 'Emotional Rescue Personal Use', cursive;
+}
+
+.text1 {
+    grid-area: text1;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-resize {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8 {
+    grid-area: pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.pic1:hover, .pic2:hover, .pic3:hover, .pic4:hover, .pic5:hover, .pic6:hover, .pic7:hover, .pic8:hover {
+    transform: scale(1.05);
+}
+
+.picturename {
+    background-color: #ffffff;
+    text-align: justify;
+    color: #333333;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.picturename h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.picturename .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.picturename .btn:hover {
+    background-color: #45a049;
+}
+
+.text2 {
+    grid-area: text2;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.hello {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 100px;
+}

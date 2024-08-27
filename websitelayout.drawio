@@ -1,0 +1,97 @@
+<mxfile host="65bd71144e">
+    <diagram id="G1qphCRCZZ4ySdw98g6-" name="Page-1">
+        <mxGraphModel dx="896" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="66" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFCCEE;" parent="1" vertex="1">
+                    <mxGeometry width="850" height="1290" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="HOME" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="VEISINIA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="FOAKAUTUU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="TOATEPI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=emotional+rescue+font&quot; style=&quot;font-size: 139px;&quot;&gt;FAMILY&lt;/font&gt;" style="text;strokeColor=#3A5431;fillColor=#6d8764;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontFamily=emotional-rescue-font;fontColor=#fcfcfc;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Demotional%2Brescue%2Bfont;labelBackgroundColor=none;labelBorderColor=none;spacingTop=0;spacing=10;spacingRight=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="100" width="800" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="AMANAKI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="LOSALINE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="TOAKASE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="SILIA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="ANA &amp;amp; SAMIU&lt;br&gt;&lt;br&gt;Stories of how they met. How many kids they have. Sunrise and Sunset" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;fontSize=25;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="340" width="805" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="TEXT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;fontSize=25;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="1020" width="805" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;b&gt;FOOTER (SOCIAL MEDIA ICONS)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="1210" width="805" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="PICTURE" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="550" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="VEISINIA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+                    <mxGeometry x="75" y="720" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="PICTURE" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="550" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="PICTURE" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="800" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="PICTURE" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="550" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="PICTURE" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="550" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Foakautu'u" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="720" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Toatepi" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="720" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Toakase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="720" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Vika" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="960" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="PICTURE" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="800" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Losaline" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+                    <mxGeometry x="275" y="960" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="PICTURE" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="800" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Amanaki" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+                    <mxGeometry x="485" y="960" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="PICTURE" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="800" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="Silia" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="1" vertex="1">
+                    <mxGeometry x="695" y="960" width="80" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

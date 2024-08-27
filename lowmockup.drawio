@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+    <diagram id="OWHvdn93CNkqojKKJvTb" name="Page-1">
+        <mxGraphModel dx="2272" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFCCEE;" parent="1" vertex="1">
+                    <mxGeometry width="850" height="1290" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="HOME" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="VEISINIA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="FOAKAUTUU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D1F00;fontColor=#0d0c0c;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="TOATEPI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D1F00;fontColor=#0d0c0c;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=emotional+rescue+font&quot; style=&quot;font-size: 139px;&quot;&gt;FAMILY&lt;/font&gt;" style="text;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Garamond;labelBackgroundColor=none;labelBorderColor=none;spacingTop=0;spacing=10;spacingRight=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="100" width="800" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="AMANAKI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D1F00;fontColor=#0d0c0c;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="LOSALINE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D1F00;fontColor=#0d0c0c;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="TOAKASE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D1F00;fontColor=#0d0c0c;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="SILIA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D1F00;fontColor=#0d0c0c;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="ANA &amp;amp; SAMIU&lt;br&gt;&lt;br&gt;Stories of how they met. How many kids they have. Sunrise and Sunset" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;fontSize=25;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="340" width="805" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="TEXT" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;fontSize=25;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="1020" width="805" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;b&gt;FOOTER (SOCIAL MEDIA ICONS)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="1210" width="805" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="PICTURE" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="25" y="550" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="VEISINIA" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="75" y="720" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="PICTURE" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="800" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Vika" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="970" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="HOME" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D1F00;fontColor=#0d0c0c;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="VEISINIA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#6D1F00;fontColor=#0d0c0c;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="40" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="550" width="590" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="800" width="590" height="180" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
