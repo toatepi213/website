@@ -70,15 +70,12 @@ body {
         width: 100%;
         margin: 10px 0;
     }
-
-   
-}
+   }
 
 .hello {
     position: absolute;
     height: auto;
     left: 0px;
-    width: 6%;
     padding-left: 10%;
 }
 .navigationbar {
@@ -114,6 +111,9 @@ body {
     font-family: Emotional Rescue Personal Use;
 }
 
+heading1 h1 {
+    text-align: center;
+}
 .text1 {
     grid-area: text1;
     background-color: #6D8764;
