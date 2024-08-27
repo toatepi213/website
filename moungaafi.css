@@ -54,6 +54,11 @@ grid-gap:0.5rem
     font-size: 50px;
     
 }
+
+.text1 h2 {
+    text-align: center;
+
+}
 .text1 {
     grid-area: text1;
     background-color: #6D8764;
