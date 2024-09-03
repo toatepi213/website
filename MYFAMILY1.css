@@ -12,6 +12,7 @@ body {
         "text1 text1 text1 text1"
         "pic1 pic2 pic3 pic4"
         "pic5 pic6 pic7 pic8"
+        "carousel-container carousel-container carousel-container carousel-container"
         "text2 text2 text2 text2"
         "footer footer footer footer";
     grid-gap: 0.5rem;
@@ -31,6 +32,7 @@ body {
             "pic3 pic4"
             "pic5 pic6"
             "pic7 pic8"
+            "carousel-container carousel-container"
             "text2 text2"
             "footer footer";
     }
@@ -52,21 +54,22 @@ body {
             "pic6"
             "pic7"
             "pic8"
+            "carousel-container"
             "text2"
             "footer";
     }
 
-    .navigationbar ul {
+.navigationbar ul {
         padding: 0;
     }
 
-    .navigationbar li {
+.navigationbar li {
         display: block;
         width: 100%;
         margin-bottom: 10px;
     }
 
-    .picturename .btn {
+.picturename .btn {
         width: 100%;
         margin: 10px 0;
     }
@@ -74,6 +77,7 @@ body {
 
 .hello {
     position: absolute;
+    width: 3%;
     height: auto;
     left: 0px;
     padding-left: 10%;
@@ -131,6 +135,8 @@ H2 {
     object-position: center center;
 }
 
+
+
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8 {
     background-color: #6D8764;
     border: 2px solid #050000;
@@ -157,10 +163,101 @@ H2 {
     border: 2px solid #000000;
 }
 
+.carousel-container{
+    grid-area: carousel-container;
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 2px; /* Optional: Add some rounding to the images */
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
 .text2 {
     grid-area: text2;
     background-color: #6d8764;
     padding: 8%;
+    text-align: center;
+}
+
+.expandable .more-text {
+    display: none; /* Hide the additional content initially */
+    cursor: pointer;
+}
+
+.expandable.expanded .more-text {
+    display: inline; /* Show the additional content when expanded */
+    cursor: pointer;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the text */
+    left: 50%;
+    margin-left: -80px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 
 .footer {
