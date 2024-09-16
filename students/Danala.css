@@ -1,0 +1,54 @@
+.body {
+    background-color: #bacdb0;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "heading heading"
+        "navbar navbar"
+        "image_1 text_1"
+        "image_2 text_2"
+        "text_3 text_3";
+}
+
+.heading {
+    grid-area: heading;
+}
+
+.navbar {
+    grid-area: navbar;
+}
+
+.image_1 {
+    grid-area: image_1;
+}
+
+.text_1 {
+    grid-area: text_1;
+    font-size: large;
+}
+
+.image_2 {
+    grid-area: image_2;
+}
+
+.text_2 {
+    grid-area: text_2;
+    font-size: large;
+}
+
+.text_3 {
+    grid-area: text_3;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+img {
+    width: 10%;
+}
