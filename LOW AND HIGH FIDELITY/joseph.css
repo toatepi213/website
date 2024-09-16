@@ -1,0 +1,96 @@
+body {
+    background-color: #BEA8A7;
+}
+ 
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "navbar navbar"
+    "heading heading"
+    "image1 image1"
+    "text_1 image2"
+    "heading2 heading2"
+    "text2 image3"
+    "vid vid"
+    "footer footer";
+}
+ 
+.navbar {
+    grid-area: navbar;
+    background-color: #BEA8A7;
+    font-size: 40px;
+ }
+ .navbar ul {
+    list-style-type: none;
+ }
+ 
+ .navbar li {
+    display: inline;
+    padding: 20px;
+ }
+ 
+ 
+ .image1 {
+     grid-area: image1;
+     background-color: #F4DBD8;
+     text-align: center;
+ }
+ 
+ .text_1 {
+    grid-area: text_1;
+    text-align: justify;
+    background-color: #BEA8A7;
+    padding: 20px;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 60px;
+ }
+ 
+ .heading {
+    grid-area: heading;
+    text-align: center;
+    background-color: #BEA8A7;
+    font-size: 60px;
+ }
+ 
+ .image2 {
+     grid-area: image2;
+     text-align: left;
+     background-color: #BEA8A7;
+     padding: 20px;
+     
+ }
+ 
+ .heading2 {
+     grid-area:heading2;
+ }
+ 
+ .text2 {
+     grid-area:text2;
+     background-color:#BEA8A7;
+     font-size: 30px;
+     text-align: justify;
+     line-height: 50px;
+ }
+ 
+ .image3 {
+     grid-area:image3;
+     text-align: center;
+     
+ }
+ 
+ .vid {
+     grid-area:vid;
+     text-align: center;
+     padding-top: 60px;
+ }
+
+ .footer {
+    grid-area: footer;
+    text-align: center;
+    background-color: #918483;
+    font-size: 30px;
+ }
+ 

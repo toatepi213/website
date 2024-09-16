@@ -1,0 +1,88 @@
+.container {
+    display : grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "heading1 heading1 heading1"
+    "navbar navbar navbar"
+    "text1 img1 img2"
+    "text1 text2 text2"
+    "vid vid vid"
+    "text3 text4 text4"
+    "footer footer footer"
+
+}
+
+.heading1 {
+
+    grid-area: heading1;
+    background-color: #1ead55;
+    border-style: solid;
+    border-color: #92a8d1;
+
+}
+
+
+.navbar {
+    grid-area: navbar;
+    background-color: #093319;
+    color: #9eeca1;
+}
+
+.text1 {
+    grid-area: text1;
+    background-color:  #1ead55;
+    border-style: solid;
+    border-color: #92a8d1;
+}
+
+.img1 {
+    grid-area: img1;
+    background-color: #093319;
+    border-style: solid;
+    border-color: #92a8d1;
+}
+
+.img2 {
+    grid-area: img2;
+    background-color: #093319;
+    border-style: solid;
+    border-color: #92a8d1;
+}
+
+.text2 {
+    grid-area: text2;
+    background-color:  #1ead55;
+    border-style: solid;
+    border-color: #92a8d1;
+}
+
+.vid {
+    grid-area: vid;
+    background-color: #093319;
+    text-align: center;
+    padding: 50px;
+    border-style: solid;
+    border-color: #92a8d1;
+}
+
+.text3 {
+    grid-area: text3;
+    background-color:  #1ead55;
+    border-style: solid;
+    border-color: #92a8d1;
+}
+
+.text4 {
+    grid-area: text4;
+    background-color: #093319;
+    border-style: solid;
+    border-color: #92a8d1;
+}
+
+.footer {
+    grid-area: footer;
+    background-color:  #1ead55;
+    border-style: solid;
+    border-color: #92a8d1;
+}
