@@ -1,13 +1,13 @@
 body {
     background-color: #e7e7e7;
-    margin: auto;
+    margin: 2% 2% 2% 2%;
+    padding: 0;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-        "navigationbar navigationbar navigationbar navigationbar"
         "heading1 heading1 heading1 heading1"
         "text1 text1 text1 text1"
         "pic1 pic2 pic3 pic4"
@@ -16,16 +16,15 @@ body {
         "text2 text2 text2 text2"
         "footer footer footer footer";
     grid-gap: 0.5rem;
-    max-width: 1200px;
+    max-width: 1450px;
     margin: auto;
 }
 
-/* Media Query for Tablets */
+/* This is to make it responsive for a tablet */
 @media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
-            "navigationbar navigationbar"
             "heading1 heading1"
             "text1 text1"
             "pic1 pic2"
@@ -38,12 +37,11 @@ body {
     }
 }
 
-/* Media Query for Mobile Phones */
+/* This is for a mobile  */
 @media (max-width: 480px) {
     .container {
         grid-template-columns: 1fr;
         grid-template-areas: 
-            "navigationbar"
             "heading1"
             "text1"
             "pic1"
@@ -58,66 +56,99 @@ body {
             "text2"
             "footer";
     }
-
-.navigationbar ul {
-        padding: 0;
+    .navigationbar ul {
+        flex-direction: column;
+        align-items: center;
     }
-
-.navigationbar li {
+    .navigationbar li {
         display: block;
         width: 100%;
         margin-bottom: 10px;
     }
-
-.picturename .btn {
+    .picturename .btn {
         width: 100%;
         margin: 10px 0;
     }
-   }
-
-.hello {
-    position: absolute;
-    width: 3%;
-    height: auto;
-    left: 0px;
-    padding-left: 10%;
-}
-.navigationbar {
-    grid-area: navigationbar;
-    background-color: #6D8764;
-    color: #e7e7e7;
-    padding: 10%;
-    height: 10%;
+    .prev, .next {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
 
-.navigationbar ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 10px;
-}
-
-.navigationbar li {
-    display: inline-block;
-    border: 2px solid #e7e7e7;
-    padding: 2% 1%;
-    color: #e7e7e7;
-    text-align: center;
-    font-size: 18px;
-}
-
+/* Heading area with logo and navbar to be inline */
 .heading1 {
     grid-area: heading1;
-    background-color: #e7e7e7;
+    position: relative;
     background-image: url(images/kakatisi.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-blend-mode: multiply;
-    font-size: 150%;
-    font-family: Emotional Rescue Personal Use;
+    background-color: #e7e7e7;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+
 }
 
-heading1 h1 {
-    text-align: center;
+.header-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+.logo {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.navigationbar {
+    padding-top: 10px;
+    margin-bottom: 0;
+    background: none;
+}
+
+.heading1 .navigationbar ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.heading1 .navigationbar li {
+    display: inline-block;
+    border: 2px solid #6D8764;
+    padding: 8px 16px;
+    color: #6D8764;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.heading1 h1 {
+    font-size: 8rem;
+    color: rgb(5, 0, 0);
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    letter-spacing: 2px;
+    padding: 5% 0 5% 5%;  
+    vertical-align: middle;
+    font-family: 'Great Vibes', cursive;
+}
+
 .text1 {
     grid-area: text1;
     background-color: #6D8764;
@@ -126,16 +157,15 @@ heading1 h1 {
     padding: 15px;
 }
 
-H2 {
+h2 {
     text-align: center;
 }
+
 .image-resize {
     width: 95%;
     height: auto;
     object-position: center center;
 }
-
-
 
 .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8 {
     background-color: #6D8764;
@@ -163,7 +193,7 @@ H2 {
     border: 2px solid #000000;
 }
 
-.carousel-container{
+.carousel-container {
     grid-area: carousel-container;
     position: relative;
     max-width: 100%;
@@ -178,22 +208,7 @@ H2 {
 
 .carousel-slide img {
     width: 100%;
-    border-radius: 2px; /* Optional: Add some rounding to the images */
-}
-
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+    border-radius: 2px;
 }
 
 .next {
@@ -210,10 +225,6 @@ H2 {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-
-
-
-
 .text2 {
     grid-area: text2;
     background-color: #6d8764;
@@ -222,15 +233,14 @@ H2 {
 }
 
 .expandable .more-text {
-    display: none; /* Hide the additional content initially */
+    display: none;
     cursor: pointer;
 }
 
 .expandable.expanded .more-text {
-    display: inline; /* Show the additional content when expanded */
+    display: inline;
     cursor: pointer;
 }
-
 
 .tooltip {
     position: relative;
@@ -248,7 +258,7 @@ H2 {
     padding: 5px;
     position: absolute;
     z-index: 1;
-    bottom: 125%; /* Position the tooltip above the text */
+    bottom: 125%;
     left: 50%;
     margin-left: -80px;
     opacity: 0;

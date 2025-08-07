@@ -6,31 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAMILY</title>
 <link rel="stylesheet" href="MYFAMILY1.css">
+    <script src="https://kit.fontawesome.com/2e042e0e09.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
 
 <div class="container">
 
-    <!--This is the Navigation section-->
-    
-    <div class="navigationbar">
-        <img src="images/logo.png" class="hello">
+  
+
+    <div class="heading1">
+        <div class="header-row">
+        <div class="logo">
+            <img src="images/logo.png" alt="FAMILY Logo">
+        </div>
+
+        <nav class="navigationbar">
+
             <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="file:///C:/Users/toatepi/OneDrive%20-%20Auckland%20Seventh-day%20Adventist%20High%20School/website/Moungaafi.html"><li>Veisinia</li></a>
-                <a href="a"><li>Foakautuu</li></a>
+                <a href="#"><li><i class="fa-solid fa-house"></i> 'Api</li></a>
+                <a href="Moungaafi.html"><li>Veisinia</li></a>
+                <a href="a"><li>Tu'u</li></a>
                 <a href="a"><li>Toatepi</li></a>
                 <a href="a"><li>Toakase</li></a>
                 <a href="a"><li>Vika</li></a>
-                <a href="a"><li>Losaline</li></a>
+                <a href="a"><li>Losa</li></a>
                 <a href="a"><li>Amanaki</li></a>
                 <a href="a"><li>Silia</li></a>
             </ul>
-    </div>
-    
-
-    <div class="heading1">
+        </nav>
+        </div>
         <h1>Family is Forever</h1>
     </div>
 
@@ -70,7 +77,7 @@
     <div class="pic3"> <img class="img-responsive image-resize" src="images/Toa.jpg" alt="Toatepi">
         <div class="picturename">
             <h3>Toatepi</h3>
-            <p>Toatepi is the third born of Ana and Samiu. She was married to Fonua Tonga of Holonga. They have seven children together and are residing in America.
+            <p>Toatepi is the third-born child of Ana and Samiu. She was married to Fonua Tonga of Holonga village. Together, they have seven children and are currently residing in Los Angeles, California, in America.
             </p>
             <a href="" class="btn">Read More</a>
         </div>
@@ -135,8 +142,7 @@
         </div>
     </div>
 
-
-
+    <!--If you are planning to have carousel in your website. This is the code for the carousel-->
     <div class="carousel-container">
         <div class="carousel-slide">
             <img src="images/Toa.jpg" alt="Image 1">
@@ -147,7 +153,7 @@
             <img src="images/Foakautuu.jpg" alt="Image 6">
         </div>
 
-    <!-- Navigation buttons -->
+    <!-- This is the code for the button if you want to have it on your carousel -->
     <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
     <button class="next" onclick="moveSlide(1)">&#10095;</button>
 
@@ -189,7 +195,7 @@
                     <input type="submit" value="Submit Message">
                 </form>
         
-                <!-- Section to Display Messages -->
+                <!-- This is where you will put in the message to show in the box -->
                 <h3>Family Messages</h3>
                 <div id="message-list">
                     <?php include('display_messages.php'); ?>
